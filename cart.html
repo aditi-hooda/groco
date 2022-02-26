@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>complete responsive grocery website design tutorial</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <link rel="stylesheet" href="cart.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- header section starts  -->
+
+    <!-- header section starts  -->
+
+    <header>
+
+        <div class="header-1">
+
+            <a href="index.html" class="logo"><i class="fas fa-shopping-basket"></i>groco</a>
+
+            <form action="" class="search-box-container">
+                <input type="search" id="search-box" placeholder="search here...">
+                <label for="search-box" class="fas fa-search"></label>
+            </form>
+
+        </div>
+
+        <div class="header-2">
+
+            <div id="menu-bar" class="fas fa-bars"></div>
+
+            <nav class="navbar">
+                <a href="index.html#home">home</a>
+                <a href="index.html#category">category</a>
+                <a href="index.html#product">product</a>
+                <a href="index.html#deal">deal</a>
+                <a href="index.html#contact">contact</a>
+            </nav>
+
+            <div class="icons">
+                <a href="cart.html" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-user-circle"></a>
+            </div>
+
+        </div>
+
+    </header>
+
+    <!-- header section ends -->
+
+    <section class="container content-section">
+        <h2 class="section-header">CART</h2>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">ITEM</span>
+            <span class="cart-price cart-header cart-column">PRICE</span>
+            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+        </div>
+        <div class="cart-items">
+        </div>
+        <div class="cart-total">
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price">$0</span>
+        </div>
+        <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+    </section>
+    <!-- custom js file link  -->
+    <script src="script.js"></script>
+    <script src="store.js"></script>
+</body>
+
+</html>
